@@ -107,3 +107,59 @@ h1 a {
   font-size: 25px;
   text-align: justify;
 }
+
+.sidebar {
+  width: 450px;
+  height: 550px;
+  border: 1px solid #c6dba2;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-top: 8px;
+}
+
+.sidebar h3 {
+  color: #b433db;
+  font-size: 30px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #5d12e7;
+  font-size: 20px;
+  font-weight: bold;
+  transition: font-size 0.4s ease;
+  -webkit-transition: font-size 0.4s ease;
+  -moz-transition: font-size 0.4s ease;
+  -o-transition: font-size 0.4s ease;
+  -ms-transition: font-size 0.4s ease;
+  line-height: 30px;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  font-size: 23px;
+  font-weight: bold;
+  color: #b314db;
+}
+
+#leftsidebar {
+  float: left;
+}
+
+#leftsidebar ul li {
+  padding-bottom: 7px;
+  list-style-image: url(./images/arrow.png);
+  padding-left: 10px;
+}
+
+#rightsidebar {
+  float: right;
+}
+
+#rightsidebar ul li {
+  list-style-image: url(./images/tick.png);
+}
